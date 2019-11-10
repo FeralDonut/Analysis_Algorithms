@@ -5,11 +5,11 @@ HW 5
 Wrestler
 """
 import sys
-import queue
+import Queue
 
 def divyRoles(graph, names):
     # Queue for vertex search
-    q = queue.Queue(maxsize=len(graph))
+    q = Queue.Queue(maxsize=len(graph))
     babyfaces = []
     heels = []
 
