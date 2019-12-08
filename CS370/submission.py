@@ -6,7 +6,6 @@ Programming Project 2
 
 import sys, hmac, base64, struct, hashlib, time
 import pyqrcode
-import pyotp
 
 
 # source: https://stackoverflow.com/questions/8529265/google-authenticator-implementation-in-python
